@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar 27 13:37:26 2022
+
+@author: venky kishore
+"""
+
+import pandas as pd
+temp=pd.read_excel("C:/Users/venky kishore/Downloads/city temperature assignment 1 (1).xlsx")
+temp.head()
+temp.tail()
+temp.surat.mean()
+temp.surat.median()
+temp.surat.mode()
+temp.surat.std()
+temp.surat.var()
+temp.surat.skew()
+temp.surat.kurt()
+temp.surat.value_counts()
+temp.hydrabed.mean()
+temp.hydrabed.median()
+temp.hydrabed.mode()
+temp.hydrabed.std()
+temp.hydrabed.var()
+temp.hydrabed.skew()
+temp.hydrabed.kurt()
+temp.hydrabed.value_counts()
